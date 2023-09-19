@@ -9,7 +9,7 @@ function App() {
   const [gameWon, setGameWon] = useState(false);
 
   const handleStartGame = (name, email, mobile, difficulty) => {
-    // Store user information or perform any necessary actions
+   
     setUser({ name, email, mobile, difficulty });
     setGameStarted(true);
   };
