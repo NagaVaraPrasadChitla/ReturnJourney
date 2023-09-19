@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #ad4949,#eee,#a1c016);
+    height: 100vh;
+}
+.head{
+    color:black;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: "roboto";
+}
+.name{
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 40px;
+}
+.label{
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "roboto";
+    
+}
+.easy{
+    background-color: yellow;
+    color: white;
+    font-weight: 600;
+}
+.medium{
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+}
+.hard{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}

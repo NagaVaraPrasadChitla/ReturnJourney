@@ -1,0 +1,31 @@
+.win{
+
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.lose{
+  
+  color:white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.green{
+  margin-top: 60px;
+  width: 400px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+
+}
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
